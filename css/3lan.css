@@ -1,0 +1,88 @@
+        div{
+            border: 1px solid #999;
+        }
+ 
+        .box{
+            min-width: 500px;
+            margin: 20px;
+            padding: 20px;
+            background: #eee;
+          
+            overflow: auto;
+        }
+        .left{
+            float: left;
+            width: 160px;
+            height: 80px;
+            background-color: #FFFFFF;
+         
+            padding: 20px;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+        
+        }
+        .logo {
+            float: left;
+        }
+        p{
+            float: right;
+        }
+        .right{
+            padding: 20px;
+            float: right;
+            width: 80px;
+            background-color: #FFFFFF;
+        
+        }
+        .logotu{
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        .lastlogotu{
+            width: 80px;
+            height: 80px;
+
+        }
+        .center{
+            padding: 20px;
+            margin-left: 220px;
+            margin-right: 140px;
+            background: #FFFFFF;
+
+        }
+            /*绝对定位*/
+        .bo{
+            position: relative;
+            min-width: 500px;
+            margin: 20px;
+            padding: 20px;
+            background: #eee;
+            overflow: auto;
+        }
+        .lef{
+            position: absolute;
+            height: 80px;
+            width: 160px;
+            top: 20px;
+            left: 20px;
+            background: #FFFFFF;
+            padding: 20px;
+        }
+        .cente{
+            margin-left: 220px;
+            margin-right: 140px;
+            background: #FFFFFF;
+            padding: 20px;
+        }
+        .righ{
+            position: absolute;
+            width: 80px;
+            top: 20px;
+            right: 20px;
+            padding: 20px;
+            background: #FFFFFF;
+        }
