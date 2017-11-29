@@ -1,0 +1,31 @@
+.box{
+    border: 1px;
+    max-width:400px;
+    height: 200px;
+    background: #ccc;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    bottom: 0; 
+    right: 0;
+  }
+  .circle1{
+    border:2px;
+    border-radius: 100px;
+    background:#fc0;
+    height:100px;
+    width:100px;
+    margin: -50px;
+  }
+  .circle2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius:100% 0% 0% 0%;
+    right: 0;
+    bottom: 0;
+    background-color: #fc0;
+    
+  }
